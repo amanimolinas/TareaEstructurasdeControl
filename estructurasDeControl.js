@@ -4,7 +4,7 @@
 // Instrucción: Escribe una función que reciba un número y verifique si es par o impar.
 // Imprime "El número es par" o "El número es impar" según corresponda.
 function verificarParidad(numero) {
-    numero= 10
+    numero= 10;
     if (numero % 2 === 0) {
         console.log("El número es par");
     } else {
@@ -29,7 +29,7 @@ function clasificarEdad(edad) {
 // Ejercicio 3: Bucles while
 // Instrucción: Crea una función que reciba un número entero positivo y utilice un bucle `while` para imprimir todos los números desde ese número hasta 0.
 function cuentaRegresiva(numero) {
-    numero= 5
+    numero= 5;
     while (numero >= 0) {
         console.log(numero);
         numero--; // Decrementa el número en cada iteración
